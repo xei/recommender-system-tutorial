@@ -4,6 +4,9 @@ It is a step-by-step tutorial on developing a practical recommendation system (`
 Here, you can find an introduction to the information retrieval and the recommendation systems, then you can explore [the Jupyter notebook](https://github.com/xei/recommender_system_tutorial/blob/main/recommender_system_tutorial.ipynb) and run it in [Google Colab](https://colab.research.google.com/github/xei/recommender_system_tutorial/blob/main/recommender_system_tutorial.ipynb) in order to study the code.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/xei/recommender_system_tutorial/blob/main/recommender_system_tutorial.ipynb)
+<a target="_blank" href="https://lightning.ai/new?repo_url=https%3A%2F%2Fgithub.com%2Fxei%2Frecommender-system-tutorial%2Fblob%2Fmain%2Frecommender_system_tutorial.ipynb">
+  <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open in Studio" />
+</a>
 
 In the notebook, we load [MovieLens dataset](https://grouplens.org/datasets/movielens/) using [TesorFlow Datasets](https://www.tensorflow.org/datasets), preprocess its features using [Keras preprocessing layers](https://keras.io/guides/preprocessing_layers/), build the `retrieval` and `ranking` tasks using [TensorFlow Recommenders](https://www.tensorflow.org/recommenders) and index and search for similar items using [Spotify Annoy](https://github.com/spotify/annoy).
 
